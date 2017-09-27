@@ -1,0 +1,12 @@
+.tab-container .buttons .active {
+    font-weight: bold;
+    border: 1px solid red;
+}
+
+.tab-container .tabs div {
+    display: none;
+}
+
+.tab-container .tabs .active {
+    display: block;
+}
