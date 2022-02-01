@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzjXdfsT1vkmdPeYNauyDXwAAAAACAAAAAAAQZgAAAAEAACAAAACw6X5CxAD6d2hJwXdpqZ3+iDVUb3Vwra9ShPp+2nkaAAAAAAAOgAAAAAIAACAAAADHRSllWwU39nUn+gQTg8zjFXfx8xaTvsRCMrKIhnfDi4AAAADsV1ZN882fptQEDqBAa/IHHfQ+q7msOQm489hLKNZTPN++dK+t0T9kJFdmb4C08urkn4altAqY+xZfDJCyiPKqKNuwqeOTMiJ94xT/FiXlA0kvHWiEABAmXEZr0AijYdd9IX99SJq9mME3otRkel1Mb1WOMoo5jQdGEgzaVBKlG0AAAABewdEBBNcxSRpaTPvltu+X3ctFr1djifyEUZi5o0+eJrqWZTp66D4avU3wysvMVKQGvEJGsqaqpf/uozzgbldL</EncryptedPassword>
+    <History>True|2022-02-01T22:24:53.1327567Z;True|2022-02-02T00:11:24.1505139+02:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:webapidbserveritstep.database.windows.net,1433%3bInitial Catalog=WebApi_db%3bPersist Security Info=False%3bUser ID=vovabatsyk%3bPassword=Vova1987%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="WebApi.Data.DataContext">
+      <Value>Server=tcp:webapidbserveritstep.database.windows.net,1433%3bInitial Catalog=WebApi_db%3bPersist Security Info=False%3bUser ID=vovabatsyk%3bPassword=Vova1987%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
